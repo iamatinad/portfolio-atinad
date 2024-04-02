@@ -1,12 +1,21 @@
 import React from "react";
-
-function Features() {
-  return <section 
-  id="features"
-  className="w-full h-[800px] pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-row  border-b-[1px] font-titleFont border-b-black">
-    Features
-
-  </section>;
-}
+import Title from "../layouts/index.js";
+import Card from "./card.js";
+import { featuresData } from "../data/index.js";
+const Features = () => {
+  return (
+    <section
+      id="features"
+      className="w-full py-20 border-b-[1px] border-b-black"
+    >
+      <Title title="Features" des="What I Do" />
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
+        {featuresData.map((item) => (
+          <Card item={item} key={item.id} />
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default Features;
