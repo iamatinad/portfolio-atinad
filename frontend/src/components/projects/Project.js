@@ -15,12 +15,16 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 hover animate-pulse">
         <ProjectsCard
           title="MarabFoods"
           des=" Built a dynamic agro website with React, showcasing agricultural products.
           connecting sellers with potential buyers"
           src={project1}
+          githubUrl="https://github.com/iamatinad/marabfoods"
+
+   
+          
         />
         <ProjectsCard
           title="Ziibo"
@@ -34,17 +38,17 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Xmas Flyer"
-          des=" Created a visually appealing flyer to wish users a merry christmas "
+          des=" Spreading holiday cheer! Designed a delightful Christmas flyer with warm wishes."
           src={project11}
         />
         <ProjectsCard
           title="Food Flyer"
-          des=" Designed a food flyer!"
+          des="Made mouths water with a delicious food flyer design!"
           src={project15}
         />
         <ProjectsCard
           title="AG Logo"
-          des=" Designed a logo as part of Atinad Graphics Branding!"
+          des=" Spearheaded Atinad Graphics' branding with a captivating logo design"
           src={project16}
         />
       </div>

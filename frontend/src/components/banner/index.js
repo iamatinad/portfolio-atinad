@@ -1,6 +1,6 @@
-import React from 'react'
-import LeftBanner from './leftbanner';
-import RightBanner from './rightbanner';
+import React from "react";
+import LeftBanner from "./leftbanner";
+import RightBanner from "./rightbanner";
 const Banner = () => {
   return (
     <section
@@ -8,9 +8,9 @@ const Banner = () => {
       className="w-full pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-row items-center border-b-[1px] font-titleFont border-b-black"
     >
       <LeftBanner />
-     <RightBanner />
+      <RightBanner />
     </section>
   );
-}
+};
 
-export default Banner
+export default Banner;

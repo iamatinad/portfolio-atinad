@@ -27,9 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation to make experiences clearer and guide users through
-          interactions. My animations are not just for aesthetics, but to
-          enhance understanding and engagement.
+        An adept learner with a growth mindset, passionate about contributing to innovative projects that combine data and compelling design to deliver exceptional user experiences
         </p>
       </div>
       <Media />
