@@ -1,7 +1,6 @@
 import React from "react";
 import {
-  FaFacebookF,
-  FaInstagramSquare,
+
   FaLinkedinIn,
   FaReact,
 } from "react-icons/fa";
@@ -14,13 +13,9 @@ const Media = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaInstagramSquare />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a href="https://www.linkedin.com/in/danita-lamptey">
+              <FaLinkedinIn />
+            </a>
           </span>
         </div>
       </div>

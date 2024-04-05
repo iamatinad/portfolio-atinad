@@ -30,7 +30,7 @@ const Education = () => {
           />
           <ResumeCard
             title="Web Developer & Trainer"
-            subTitle="MEST AFRICA - (2024 )"
+            subTitle="MEST Africa - (2024 )"
             result="Accra"
             des="Gained a strong foundational knowledge into various programming languages."
           />

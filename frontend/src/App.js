@@ -5,6 +5,7 @@ import Features from './components/features';
 import Projects from './components/projects/Project';
 import Resume from './components/resume/Resume';
 
+
 function App() {
   return (
  <div className="W-full h-auto bg-bodyColor text-lightText">
@@ -14,6 +15,7 @@ function App() {
   <Features/>
   <Projects/>
   <Resume/>
+
   </div>
  
  </div>
