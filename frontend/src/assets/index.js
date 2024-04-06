@@ -11,7 +11,8 @@ import project00 from "./images/projects/project00.png"
 import project50 from "./images/projects/project.50.jpg"
 import Larissa from "./images/testimonials/Larissa.png";
 import Gerald from "./images/testimonials/Gerald.png";
-import contactimage from "./images/contact.png";
+import Zappah from "./images/testimonials/zappah.jpg";
+import contactImg from "./images/contactImg.jpg";
 import quote from "./images/quote.png";
 
 export {
@@ -29,7 +30,8 @@ export {
   
   Larissa,
   Gerald,
-  contactimage,
+  Zappah,
+  contactImg,
   quote,
   
 };
