@@ -7,7 +7,7 @@ export const featuresData = [
     id: 2,
     icon: <AiFillAppstore />,
     title: "Web Development",
-    des: "Building with HTML, CSS, JS & React. User-friendly & visually stunning experiences.",
+    des: "Building with HTML, CSS, JS, React & MondgoDB. User-friendly & visually stunning experiences.",
   },
 
   {

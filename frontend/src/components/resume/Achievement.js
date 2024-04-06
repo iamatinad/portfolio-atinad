@@ -12,7 +12,7 @@ const Achievement = () => {
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]"></p>
-          <h2 className="text-4xl font-bold">Online</h2>
+          <h2 className="text-4xl font-bold">Certifications</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
@@ -27,40 +27,43 @@ const Achievement = () => {
             result="Success"
             des="Completed a simulation focused on advising a client on customer targeting with the Data, Analytics & Modelling team"
           />
-          <ResumeCard
-            title="JPMorgan Chase & Co. Global Finance and Business Management "
-            subTitle="virtual experience program on Forage - August 2022"
-            result="Success"
-            des="Completed a jo simulation focused on the GFBM internship program at JPMorgan Chase & Co."
-          />
-        </div>
-      </div>
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]"></p>
-          <h2 className="text-4xl font-bold">Certifications</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
+
+<ResumeCard
             title="Bloomberg Market Concepts"
             subTitle="Bloomberg LP"
             result="Success"
             des="Gain hands-on experience using the Bloomberg Terminal, a powerful platform for financial data, analytics, and news!"
           />
-          <ResumeCard
+          {/* <ResumeCard
+            title="JPMorgan Chase & Co. Global Finance and Business Management "
+            subTitle="virtual experience program on Forage - August 2022"
+            result="Success"
+            des="Completed a jo simulation focused on the GFBM internship program at JPMorgan Chase & Co."
+          /> */}
+        </div>
+      </div>
+      {/* <div>
+        <div className="py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]"></p>
+          <h2 className="text-4xl font-bold">Certifications</h2>
+        </div>
+        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"> */}
+          
+          
+          {/* <ResumeCard
             title="Sololearn"
             subTitle="HTML"
             result="Success"
             des="Gained a strong knowledge in HMTL and practiced coding with the language"
-          />
-          <ResumeCard
+          /> */}
+          {/* <ResumeCard
             title="Corporate Finance Institute"
             subTitle="Introduction to Business Intelligence"
             result="Success"
             des="Gained insights into business intelligence and how to use BI tools"
-          />
-        </div>
-      </div>
+          /> */}
+        {/* </div>
+      </div> */}
     </motion.div>
   );
 };

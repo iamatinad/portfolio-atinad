@@ -24,7 +24,7 @@ const Testimonial = () => {
               />
               <div className="w-full flex flex-col justify-end">
                 <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                  Zinimium
+                  Zaps Media
                 </p>
                 <h3 className="text-2xl font-bold">Theophilus Ampah</h3>
                 <p className="text-base tracking-wide text-gray-500">
