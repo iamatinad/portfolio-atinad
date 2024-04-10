@@ -13,7 +13,7 @@ const Education = () => {
       <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2015 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-4xl font-bold">Education</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
@@ -29,7 +29,7 @@ const Education = () => {
             des="Specialized in Business and broaden my skills."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
+            title="Web Developer Trainee"
             subTitle="MEST Africa - (2024 )"
             result="Accra"
             des="Gained a strong foundational knowledge into various programming languages."
