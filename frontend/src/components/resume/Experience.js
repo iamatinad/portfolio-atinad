@@ -16,6 +16,12 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="Corextreme(Yooke)"
+            subTitle="Web Developer Intern (2024 - 2024)"
+            result= "Remote"
+            des="Worked with a start-up company to develop a passenger portal;"
+          />
+          <ResumeCard
             title="Atinad Graphics and Tech"
             subTitle="Freelancer (2020 - 2022)"
             result= "Virtual"
