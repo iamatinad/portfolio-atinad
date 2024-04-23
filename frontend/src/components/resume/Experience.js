@@ -19,7 +19,7 @@ const Experience = () => {
             title="Corextreme(Yooke)"
             subTitle="Web Developer Intern (2024 - 2024)"
             result= "Remote"
-            des="Worked with a start-up company to develop a passenger portal;"
+            des="Worked with a start-up company to develop a passenger portal"
           />
           <ResumeCard
             title="Atinad Graphics and Tech"
