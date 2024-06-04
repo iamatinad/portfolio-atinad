@@ -58,6 +58,7 @@ const Projects = () => {
           des=" Built a todo app and fetched the API from a todo API I created"
           src={project09}
           githubUrl="https://github.com/iamatinad/Todo-app"
+            />
 
         
         <ProjectsCard
