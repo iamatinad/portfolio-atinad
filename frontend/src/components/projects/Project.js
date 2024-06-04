@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/index.js'
-import { project1, ziibo, project11 , project15, project16, project20, project50,project09, project00,atinance} from "../../assets/index.js";
+import { project1, ziibo, project11 , project15, project16, project20, project50,project09, atinance} from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 
