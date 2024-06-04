@@ -28,7 +28,7 @@ const Projects = () => {
             <ProjectsCard
           title="MarabFoods"
           des=" Built a dynamic agro website with React, showcasing agricultural products.
-          Connecting sellers with potential buyers"
+          Connecting sellers with potential buyers."
           src={project1}
           githubUrl="https://github.com/iamatinad/marabfoods"
 
@@ -37,7 +37,8 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Ziibo"
-          des=" Developed Ziibo a visually-appealing movie web app built with React for browsing, searching, and discovering your next cinematic film."
+          des=" Developed Ziibo a visually-appealing movie web app built for browsing, searching, and 
+          discovering your next cinematic film."
           src={ziibo}
           githubUrl="https://github.com/iamatinad/ziibo-main"
         />
