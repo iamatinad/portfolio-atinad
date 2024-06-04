@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/index.js'
-import { project1, ziibo, project11 , project15, project16, project20, project50,project09, project00} from "../../assets/index.js";
+import { project1, ziibo, project11 , project15, project16, project20, project50,project09, project00,atinance} from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 
@@ -17,7 +17,14 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 hover animate-pulse">
-        <ProjectsCard
+         <ProjectsCard
+          title="Atinance"
+          des=" An expense tracker MERN Stack web app to help users track their finances"
+          src={atinance}
+          githubUrl="https://atinance-app.vercel.app/"
+   
+        />
+            <ProjectsCard
           title="MarabFoods"
           des=" Built a dynamic agro website with React, showcasing agricultural products.
           connecting sellers with potential buyers"
