@@ -12,6 +12,7 @@ import project50 from "./images/projects/project.50.jpg"
 import Zappah from "./images/testimonials/zappah.jpg";
 import contactImg from "./images/contactImg.jpg";
 import quote from "./images/quote.png";
+import atinance from "./images/projects/Project100.jpg";
 
 export {
   logom,
@@ -25,6 +26,7 @@ export {
   project50,
   project09,
   project00,
+  atinance,
   
  
   Zappah,
