@@ -19,7 +19,8 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 hover animate-pulse">
          <ProjectsCard
           title="Atinance"
-          des=" An expense tracker MERN Stack web app to help users track their finances"
+          des=" An expense tracker MERN Stack web app to help users control their finances
+           by tracking their expenses"
           src={atinance}
           githubUrl="https://atinance-app.vercel.app/"
    
@@ -27,7 +28,7 @@ const Projects = () => {
             <ProjectsCard
           title="MarabFoods"
           des=" Built a dynamic agro website with React, showcasing agricultural products.
-          connecting sellers with potential buyers"
+          Connecting sellers with potential buyers"
           src={project1}
           githubUrl="https://github.com/iamatinad/marabfoods"
 
@@ -58,12 +59,7 @@ const Projects = () => {
           src={project09}
           githubUrl="https://github.com/iamatinad/Todo-app"
 
-        />
-        <ProjectsCard
-          title="Data"
-          des=" Analysed data using Tableau"
-          src={project00}
-        />
+        
         <ProjectsCard
           title="Xmas Flyer"
           des=" Spreading holiday cheer! Designed a delightful Christmas flyer with warm wishes."
