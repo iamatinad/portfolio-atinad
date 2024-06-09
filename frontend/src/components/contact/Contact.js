@@ -91,11 +91,6 @@ const Contact = () => {
                   {errMsg}
                 </p>
               )}
-              {successMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
-                  {successMsg}
-                </p>
-              )}
               <div className="w-full flex flex-col lgl:flex-row gap-10">
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                   <p className="text-sm text-gray-400 uppercase tracking-wide">
@@ -162,6 +157,11 @@ const Contact = () => {
                   Send Message
                 </button>
               </div>
+              {successMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-blue-500 text-base tracking-wide animate-bounce">
+                  {successMsg}
+                </p>
+              )}
             </form>
           </div>
         </div>
