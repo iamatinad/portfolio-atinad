@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/index.js'
-import { project1, ziibo, project11 , project15, project16, project20, project50,project09, atinance} from "../../assets/index.js";
+import { project1, ziibo, project11 , project15, project16, project20, project50,project09, atinance, ati} from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 
@@ -29,7 +29,7 @@ const Projects = () => {
           title="Google clone"
           des=" Built my version of google using HTML and CSS
           showcasing my data and design works."
-          src={project1}
+          src={ati}
           githubUrl="https://atinad-btl.vercel.app/"
 
    
