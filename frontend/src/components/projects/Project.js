@@ -26,11 +26,11 @@ const Projects = () => {
    
         />
             <ProjectsCard
-          title="MarabFoods"
-          des=" Built a dynamic agro website with React, showcasing agricultural products.
-          Connecting sellers with potential buyers."
+          title="Google clone"
+          des=" Built my version of google using HTML and CSS
+          showcasing my data and design works."
           src={project1}
-          githubUrl="https://github.com/iamatinad/marabfoods"
+          githubUrl="https://atinad-btl.vercel.app/"
 
    
           
