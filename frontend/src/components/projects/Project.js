@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/index.js'
-import { project1, ziibo, project11 , project15, project16, project20, project50,project09, atinance, ati} from "../../assets/index.js";
+import { project1, ziibo, project11 , project15, project16, project20, project50,project09, atinance, ati,bd} from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 
@@ -35,6 +35,14 @@ const Projects = () => {
    
           
         />
+
+             <ProjectsCard
+          title="Birthday Gif site"
+          des=" Built a user-friendly birthday gif site using HTML, CSS 
+          and JS to celebrate my sister on her birthday"
+          src={bd}
+          githubUrl="https://ardie-bd.vercel.app/"
+            />
         <ProjectsCard
           title="Ziibo"
           des=" Developed Ziibo a visually-appealing movie web app built for browsing, searching, and 
@@ -54,12 +62,7 @@ const Projects = () => {
           src={project50}
           githubUrl="https://github.com/iamatinad/recipe-app-beta"
         />
-        <ProjectsCard
-          title="Todo App"
-          des=" Built a todo app and fetched the API from a todo API I created"
-          src={project09}
-          githubUrl="https://github.com/iamatinad/Todo-app"
-            />
+       
 
         
         <ProjectsCard
