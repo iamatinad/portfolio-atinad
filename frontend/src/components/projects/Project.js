@@ -28,7 +28,7 @@ const Projects = () => {
             <ProjectsCard
           title="Google clone"
           des=" Built my version of google using HTML and CSS
-          showcasing my data and design works."
+          showcasing my olympics project and eye for good design."
           src={ati}
           githubUrl="https://atinad-btl.vercel.app/"
 
