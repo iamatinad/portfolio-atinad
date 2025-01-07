@@ -27,7 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        An adept learner with a growth mindset, passionate about contributing to innovative projects that combine data and compelling design to deliver exceptional user experiences.
+        An adept learner with a growth mindset passionate about contributing to innovative projects that combine data and compelling design to deliver exceptional user experiences.
         </p>
       </div>
       <Media />
