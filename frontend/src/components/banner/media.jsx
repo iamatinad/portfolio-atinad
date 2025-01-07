@@ -5,6 +5,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { SiMicrosoftexcel,  SiGooglebigquery, SiSqlite} from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
 
 const Media = () => {
   return (
@@ -12,7 +13,7 @@ const Media = () => {
       <div>
         <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <span className="bannerIcon" title="Linkedin">
             <a href="https://www.linkedin.com/in/danita-lamptey">
               <FaLinkedinIn />
             </a>
@@ -24,17 +25,17 @@ const Media = () => {
            SKILLED IN
         </h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <SiSqlite />
+          <span className="bannerIcon" title="SQL">
+            <BsFiletypeSql />
           </span>
         
-          <span className="bannerIcon">
+          <span className="bannerIcon" title="Excel">
             <SiMicrosoftexcel />
           </span>
-           <span className="bannerIcon">
+           <span className="bannerIcon" title="BigQuery">
             <SiGooglebigquery />
           </span>
-          <span className="bannerIcon">
+          <span className="bannerIcon" title="React">
             <FaReact />
           </span>
         </div>

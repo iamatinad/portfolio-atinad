@@ -16,24 +16,26 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Moreton Bay Regional Council Entrepreneurship & Innovation."
-            subTitle=" Web Development Job Simulation on Forage - February 2024"
+            title="Google Cloud Certified"
+            subTitle="Cloud Digital Leader - 12/2024"
             result="Success"
-            des="Completed a job simulation involving website planning and creation."
+            des="This demonstrates my foundational knowledge of cloud technologies and business solutions"
           />
           <ResumeCard
+            title="CS50's Introduction to SQL "
+            subTitle="(HarvardX)- 11/2024"
+            result="Success"
+            des="Gain hands-on experience using the Bloomberg Terminal, a powerful platform for financial data, analytics, and news!"
+          />
+          
+          <ResumeCard
             title="KPMG AU Data Analytics "
-            subTitle="Job Simulation on Forage - November 2023"
+            subTitle="Job Simulation on Forage - 11/2023"
             result="Success"
             des="Completed a simulation focused on advising a client on customer targeting with the Data, Analytics & Modelling team"
           />
 
-<ResumeCard
-            title="Bloomberg Market Concepts"
-            subTitle="Bloomberg LP"
-            result="Success"
-            des="Gain hands-on experience using the Bloomberg Terminal, a powerful platform for financial data, analytics, and news!"
-          />
+
           {/* <ResumeCard
             title="JPMorgan Chase & Co. Global Finance and Business Management "
             subTitle="virtual experience program on Forage - August 2022"

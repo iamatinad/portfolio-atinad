@@ -23,6 +23,6 @@ export const featuresData = [
     id: 5,
     icon: <SiAntdesign />,
     title: "Graphic Design",
-    des: "I create eye-catching graphics and user interfaces that captivate and connect.Using Photoshop, Canva and Pixel Lab",
+    des: "I create eye-catching graphics and user interfaces that captivate and connect.Using Photoshop and Canva.",
   },
 ];

@@ -11,7 +11,7 @@ const Testimonial = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="WHAT A CLIENT SAYS" des="Testimonial" />
+        <Title title="WHAT A PRO SAYS" des="Testimonial" />
       </div>
       <div className="max-w-6xl mx-auto">
         <div className="w-full">
@@ -38,7 +38,7 @@ const Testimonial = () => {
                 <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                   <div>
                     <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                      Brand Designs
+                      Values
                     </h3>
                     <p className="text-base text-gray-400 mt-3"></p>
                   </div>
@@ -51,8 +51,7 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  I received a top-notch service and working with Danita is well
-                  rounded.
+                Danita is a creative, open minded professional and with a blend of expertise. I higly recommended her!
                 </p>
               </div>
             </div>

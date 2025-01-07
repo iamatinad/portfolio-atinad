@@ -13,7 +13,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Danita Lamptey</h3>
         <p className="text-lg font-normal text-gray-400">
-          Developer | Analyst | Designer
+          Analyst | Developer | Designer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
         I bridge the gap between creativity and functionality, designing, analyzing, and developing solutions that are both innovative and user-friendly.
