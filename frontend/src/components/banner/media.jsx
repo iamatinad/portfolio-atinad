@@ -4,7 +4,7 @@ import {
   FaLinkedinIn,
   FaReact,
 } from "react-icons/fa";
-import { SiMicrosoftexcel, SiGithub, SiNotion } from "react-icons/si";
+import { SiMicrosoftexcel,  SiGooglebigquery, SiSqlite} from "react-icons/si";
 
 const Media = () => {
   return (
@@ -25,16 +25,17 @@ const Media = () => {
         </h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaReact />
+            <SiSqlite />
           </span>
-          <span className="bannerIcon">
-            <SiNotion />
           </span>
           <span className="bannerIcon">
             <SiMicrosoftexcel />
           </span>
+           <span className="bannerIcon">
+            <SiGooglebigquery />
+          </span>
           <span className="bannerIcon">
-            <SiGithub />
+            <FaReact />
           </span>
         </div>
       </div>
