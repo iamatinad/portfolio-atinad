@@ -27,7 +27,7 @@ const Media = () => {
           <span className="bannerIcon">
             <SiSqlite />
           </span>
-          </span>
+        
           <span className="bannerIcon">
             <SiMicrosoftexcel />
           </span>
