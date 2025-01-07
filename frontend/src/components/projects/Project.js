@@ -44,6 +44,7 @@ const Projects = () => {
           title="Ziibo"
           des="Developed Ziibo, a visually appealing movie web app built for browsing, searching, and discovering films."
           src={ziibo}
+         liveUrl="https://ziibo-main.vercel.app/"
           githubUrl="https://github.com/iamatinad/ziibo-main"
         />
         <ProjectsCard
