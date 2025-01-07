@@ -3,6 +3,14 @@ import { SiAntdesign } from "react-icons/si";
 
 // Features Data
 export const featuresData = [
+
+   {
+    id: 1,
+
+    title: "Data Analytics",
+    des: "Data analysis with Excel, SQL & Tableau. Passionate to learn more  to unlock deeper insights!",
+  },
+
   {
     id: 2,
     icon: <AiFillAppstore />,
@@ -10,12 +18,6 @@ export const featuresData = [
     des: "Building with HTML, CSS, JS, React & MondgoDB. User-friendly & visually stunning experiences.",
   },
 
-  {
-    id: 1,
-
-    title: "Data Analytics",
-    des: "Data analysis with Excel, SQL & Tableau. Passionate to learn more  to unlock deeper insights!",
-  },
 
   {
     id: 5,
