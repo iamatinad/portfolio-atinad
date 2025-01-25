@@ -17,8 +17,10 @@ import quote from "./images/quote.png";
 import atinance from "./images/projects/Project100.jpg";
 import ati from "./images/projects/ati.png";
 import bd from "./images/projects/bd.jpg";
+import edc from "./images/projects/edc tracker.jpeg";
 
 export {
+  edc
   logom,
   banner,
   chess,
