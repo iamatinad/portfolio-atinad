@@ -19,7 +19,7 @@ const Projects = () => {
         
       <ProjectsCard
           title="EDC Tracker"
-          des="A seamless app built with appsheet to keep record and track attendance using QRCodes. "
+          des="A seamless app built with appsheet to keep record and track attendance using personalized IDS and QRCodes. "
           src={edc}
           githubUrl="https://github.com/iamatinad/EDC-Tracker"
         />
