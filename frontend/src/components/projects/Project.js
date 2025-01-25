@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/index.js';
-import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie } from "../../assets/index.js";
+import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie, edc } from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 const Projects = () => {
@@ -18,6 +18,13 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 hover animate-pulse">
         
       <ProjectsCard
+          title="EDC Tracker"
+          des="A seamless app built with appsheet to keep record and track attendance using QRCodes. "
+          src={edc}
+          githubUrl="https://github.com/iamatinad/EDC-Tracker"
+        />
+
+<ProjectsCard
           title="GitHub Top Languages"
           des="Evaluated repositories to identify top 10 programming language usage with BigQuery and Looker. "
           src={git}
@@ -78,11 +85,7 @@ const Projects = () => {
           des="Created a mouth-watering food flyer design."
           src={project15}
         />
-        <ProjectsCard
-          title="AG Logo"
-          des="Spearheaded Atinad Graphics' branding with a captivating logo design."
-          src={project16}
-        />
+     
       </div>
     </section>
   );
