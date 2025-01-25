@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/index.js';
-import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie } from "../../assets/index.js";
+import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie ,edc} from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 const Projects = () => {
@@ -18,13 +18,20 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 hover animate-pulse">
         
       <ProjectsCard
+          title="EDC Tracker"
+          des="A seamless and easy to use app to keep records and track attendance with personalized IDS and QRCodes. "
+          src={edc}
+          // liveUrl="https://lookerstudio.google.com/reporting/b44dfd94-2869-4293-9c05-f98e4c59a144"
+          githubUrl="https://github.com/iamatinad/EDC-Tracker"
+        />
+
+             <ProjectsCard
           title="GitHub Top Languages"
           des="Evaluated repositories to identify top 10 programming language usage with BigQuery and Looker. "
           src={git}
           liveUrl="https://lookerstudio.google.com/reporting/b44dfd94-2869-4293-9c05-f98e4c59a144"
           githubUrl="https://github.com/iamatinad/data_analytics_projects/tree/main/top_10_github_languages"
         />
-        
 
       <ProjectsCard
           title="Chess Database"
@@ -78,11 +85,11 @@ const Projects = () => {
           des="Created a mouth-watering food flyer design."
           src={project15}
         />
-        <ProjectsCard
-          title="AG Logo"
-          des="Spearheaded Atinad Graphics' branding with a captivating logo design."
-          src={project16}
-        />
+        // <ProjectsCard
+        //   title="AG Logo"
+        //   des="Spearheaded Atinad Graphics' branding with a captivating logo design."
+        //   src={project16}
+        // />
       </div>
     </section>
   );
