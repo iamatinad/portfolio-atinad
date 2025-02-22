@@ -18,9 +18,11 @@ import atinance from "./images/projects/Project100.jpg";
 import ati from "./images/projects/ati.png";
 import bd from "./images/projects/bd.jpg";
 import edc from "./images/projects/edc.jpeg";
+import fit from "./images/projects/fitness.jpeg";
 
 export {
   edc,
+  fit,
   logom,
   banner,
   chess,
