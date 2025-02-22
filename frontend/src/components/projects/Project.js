@@ -69,7 +69,7 @@ const Projects = () => {
 
             <ProjectsCard
           title="Fitness For Life"
-          des="A web app for fitness for life showcasing their brand."
+          des="A web app for fitness for life showcasing their brand, what they do, style, rates and more."
           src={fit}
             liveUrl="https://fitnessforlifemain.vercel.app/"
           githubUrl="https://github.com/iamatinad/fitnessforlifemain"
@@ -88,7 +88,7 @@ const Projects = () => {
         
         <ProjectsCard
           title="Xmas Flyer"
-          des="Designed a delightful Christmas flyer to spread holiday cheer."
+          des="Designed a delightful Christmas flyer to spread holiday cheer using the christmas colours."
           src={project11}
         />
        
