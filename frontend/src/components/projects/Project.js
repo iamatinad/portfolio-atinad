@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/index.js';
-import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie, edc } from "../../assets/index.js";
+import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie, edc,fit } from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 const Projects = () => {
@@ -66,6 +66,15 @@ const Projects = () => {
           githubUrl="https://github.com/iamatinad/ardie.bd"
         />
 
+
+            <ProjectsCard
+          title="Fitness For Life"
+          des="A web app for fitness for life showcasing their brand."
+          src={fit}
+            liveUrl="https://fitnessforlifemain.vercel.app/"
+          githubUrl="https://github.com/iamatinad/fitnessforlifemain"
+        />
+     
         <ProjectsCard
           title="Google Clone"
           des="Built my version of Google using HTML and CSS, showcasing my eye for good design and a data project."
@@ -75,19 +84,14 @@ const Projects = () => {
         />
         
        
-       
+        
         
         <ProjectsCard
           title="Xmas Flyer"
           des="Designed a delightful Christmas flyer to spread holiday cheer."
           src={project11}
         />
-        <ProjectsCard
-          title="Food Flyer"
-          des="Created a mouth-watering food flyer design."
-          src={project15}
-        />
-     
+       
       </div>
     </section>
   );
