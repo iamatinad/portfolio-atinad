@@ -16,7 +16,15 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 hover animate-pulse">
-        
+
+          <ProjectsCard
+          title="Atinance"
+          des="An expense tracker MERN Stack web app to help users control their finances by tracking their expenses."
+          src={atinance}
+          liveUrl="https://atinance-app.vercel.app/"
+          githubUrl="https://github.com/iamatinad/atinance-app"
+        />
+            
       <ProjectsCard
           title="EDC Tracker"
           des="A seamless app built with appsheet to keep record and track attendance using personalized IDS and QRCodes. "
@@ -41,13 +49,7 @@ const Projects = () => {
           githubUrl="https://github.com/iamatinad/data_analytics_projects/tree/main/chess_db"
         />
        
-        <ProjectsCard
-          title="Atinance"
-          des="An expense tracker MERN Stack web app to help users control their finances by tracking their expenses."
-          src={atinance}
-          liveUrl="https://atinance-app.vercel.app/"
-          githubUrl="https://github.com/iamatinad/atinance-app"
-        />
+        
         <ProjectsCard
           title="Ziibo"
           des="Collaborated with a team of 3 on Ziibo, a visually appealing movie web app built for discovering films."
