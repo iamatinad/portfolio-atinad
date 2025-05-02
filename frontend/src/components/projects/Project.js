@@ -76,7 +76,7 @@ const Projects = () => {
         />
      
         <ProjectsCard
-          title="AtiFrench"
+          title="Ati-French"
           des="Built a french learning flashcard app to help remember vocabs and keep it well organised."
           src={home}
           // liveUrl="https://atinad-btl.vercel.app/"
