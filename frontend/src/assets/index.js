@@ -23,7 +23,7 @@ import home from "./images/projects/home.png";
 
 export {
   edc,
-  home.
+  home,
   fit,
   logom,
   banner,
