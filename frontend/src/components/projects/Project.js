@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/index.js';
-import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie, edc,fit } from "../../assets/index.js";
+import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie, edc,fit, home} from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 const Projects = () => {
@@ -76,11 +76,11 @@ const Projects = () => {
         />
      
         <ProjectsCard
-          title="Google Clone"
-          des="Built my version of Google using HTML and CSS, showcasing my eye for good design and a data project."
-          src={ati}
-          liveUrl="https://atinad-btl.vercel.app/"
-          githubUrl="https://github.com/iamatinad/atinad-btl"
+          title="AtiFrench"
+          des="Built a french learning flashcard app to help remember vocabs and keep it well organised."
+          src={home}
+          // liveUrl="https://atinad-btl.vercel.app/"
+          githubUrl="https://github.com/iamatinad/AtiFrench"
         />
         
        
