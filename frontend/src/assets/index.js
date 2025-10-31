@@ -20,8 +20,10 @@ import bd from "./images/projects/bd.jpg";
 import edc from "./images/projects/edc.jpeg";
 import fit from "./images/projects/fitness.jpg";
 import home from "./images/projects/home.png";
+import atinad from "./images/projects/atinad.b.png";
 
 export {
+  atinad,
   edc,
   home,
   fit,
