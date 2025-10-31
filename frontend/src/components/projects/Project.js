@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/index.js';
-import {   project11, project15, project16,  atinance, ati, bd, chess, git, movie, edc,fit, home} from "../../assets/index.js";
+import {   atinad, project11, project15, project16,  atinance, ati, bd, chess, git, movie, edc,fit, home} from "../../assets/index.js";
 import ProjectsCard from './Projectscard.js';
 
 const Projects = () => {
