@@ -17,6 +17,15 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 hover animate-pulse">
 
+              <ProjectsCard
+          title="Atinad.b"
+          des="A professional brand website showcasing freelance services, projects, reviews etc"
+          src={atinad}
+          liveUrl="https://atinadb.pro"
+          //githubUrl="https://github.com/iamatinad/atinance-app"
+        />
+            
+
           <ProjectsCard
           title="Atinance"
           des="An expense tracker MERN Stack web app to help users control their finances by tracking their expenses."
@@ -86,11 +95,7 @@ const Projects = () => {
        
         
         
-        <ProjectsCard
-          title="Xmas Flyer"
-          des="Designed a delightful Christmas flyer to spread holiday cheer using the christmas colours."
-          src={project11}
-        />
+      
        
       </div>
     </section>
