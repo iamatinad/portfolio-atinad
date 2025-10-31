@@ -19,7 +19,7 @@ const Projects = () => {
 
               <ProjectsCard
           title="Atinad.b"
-          des="A professional brand website showcasing freelance services, projects, reviews etc"
+          des="A professional brand website showcasing freelance services, skills, projects, reviews and digital products"
           src={atinad}
           liveUrl="https://atinadb.pro"
           //githubUrl="https://github.com/iamatinad/atinance-app"
